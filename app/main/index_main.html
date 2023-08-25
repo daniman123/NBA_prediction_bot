@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../main/style_main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script defer type="module" src="../main/js/index_main.js" ></script>
+        <title>NBA Prediction Bot</title>
+    </head>
+<body>
+    
+    <header>
+        <nav>
+            <ul class="nav__links">
+                <li id="adj_nav" data-nav-bar-adjusted-ffac>Adjusted Fourfactors</li>
+                <li id="daily_nav" data-nav-bar-daily-ffac>Daily Predictions</li>
+                <li id="injuries_nav" data-nav-bar-injuries>Injuries</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="adj_ffac" data-adjusted-ffac-table>
+        <h3 class="adj_title">Adjusted Fourfactors</h3>
+        <h5 data-adjusted-ffac-update-log></h5>
+    </section>
+    
+    <section class="daily_ffac" data-daily-ffac-table>
+        <h3 class="daily_title">Daily Predictions</h3>
+    </section>
+
+    <section class="daily_expanded_ffac" data-daily-ffac-expanded-table>
+        <h3 class="daily_expanded_title">Expanded Stats</h3>
+    </section>
+
+    <section class="injuries_expanded" data-injuries-expanded-table>
+        <h3 class="injuries_expanded_title">Injuries</h3>
+    </section>
+
+    <section class="injuries" data-injuries-table>
+        <h3 class="injuries_title">Injuries</h3>
+    </section>
+
+</body>
+
+</html>

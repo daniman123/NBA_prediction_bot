@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color:rgb(195, 205, 238);
+    width:1200px; 
+}
+
+/* NAV BAR */
+nav > ul {
+    /* pos / size */
+    position: relative;
+    left: 2%; 
+    width: 200px;
+
+    /* style */
+    list-style: none;
+    background-color:rgb(210, 218, 245);
+    border-radius: 7px;
+    
+}
+
+nav > ul > li {
+    /* pos / size */
+    padding: .2em;
+    width: 140px;
+
+    /* style */
+    opacity: 0.9;
+    text-align: center;
+    border: 2px solid rgb(210, 218, 245);
+    border-radius: 5px;
+
+    /* tools */
+    cursor: pointer;
+}
+
+nav > ul > li:hover {
+    /* style */
+    opacity: 1;
+    background-color:rgb(221, 226, 243);
+    border: 2px solid white;
+}
+
+
+/* TABS */
+
+section {
+    /* pos / size  */
+    display: none;
+
+ 
+    /* style */
+
+
+    /* tools */
+    
+}
+
+section.active {
+    /* pos / size  */
+    display: block;
+    position: relative;
+    width: 500px;
+    left: 20%;
+ 
+    /* style */
+
+
+    /* tools */
+}
+
+/* table titles */
+h3 {
+    position: relative;
+    left: 15%;
+    width: 200px;
+}
+/* adj_ffac update label */
+h5 {
+    position: relative;
+    left: 15%; 
+}
+
+/* all tables */
+table {
+    /* pos / size  */
+    position: relative;
+    left: 14%;
+    width: 1200px;
+
+    /* style */
+    padding: 10px;
+    background-color:rgb(201, 211, 243);
+
+    /* tools */
+    cursor: pointer;
+}
+
+/* individual table elements  */
+th {
+    background-color: rgb(10, 42, 146);
+    color: #fff;
+    padding: 3px;
+}
+
+td {
+    /* pos / size  */
+    resize: none;
+    text-align: center;
+    font-size: small;
+
+    /* style */
+    border-radius: 2px;
+    background-color: rgb(69, 106, 226);
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid;
+}
+
+/* first col text bold font */
+.adj_ffac > td:nth-child(1) {
+    font-weight: bold; 
+}
+
+/* body rows */
+tbody > tr {
+    opacity: .8;
+}
+tbody > tr:hover {
+    opacity: 1;
+}
+
+
+
